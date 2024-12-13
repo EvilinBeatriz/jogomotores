@@ -9456,7 +9456,7 @@ GameObject:
   - component: {fileID: 525064660}
   - component: {fileID: 525064659}
   - component: {fileID: 525064661}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LATERAIS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12512,7 +12512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9318c383f026deb4da93b0d301d28ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collected: {fileID: 0}
+  collected: {fileID: 2023040535}
   Score: 10
 --- !u!1 &1309794493
 GameObject:
@@ -12705,6 +12705,11 @@ Transform:
   - {fileID: 90245648}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1420669911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3528533033568629825, guid: 99daa9b8d304ac642b4bf60dbffe3401, type: 3}
+  m_PrefabInstance: {fileID: 2426504285988656346}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1463577230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12782,7 +12787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9318c383f026deb4da93b0d301d28ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collected: {fileID: 0}
+  collected: {fileID: 2023040535}
   Score: 10
 --- !u!1 &1580205588 stripped
 GameObject:
@@ -12801,7 +12806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9318c383f026deb4da93b0d301d28ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collected: {fileID: 0}
+  collected: {fileID: 2023040535}
   Score: 10
 --- !u!1 &1648853173 stripped
 GameObject:
@@ -12820,7 +12825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9318c383f026deb4da93b0d301d28ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collected: {fileID: 0}
+  collected: {fileID: 2023040535}
   Score: 10
 --- !u!1 &1654609351
 GameObject:
@@ -12973,7 +12978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9318c383f026deb4da93b0d301d28ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collected: {fileID: 0}
+  collected: {fileID: 1420669911}
   Score: 10
 --- !u!1 &1852749629
 GameObject:
@@ -13567,7 +13572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9318c383f026deb4da93b0d301d28ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collected: {fileID: 0}
+  collected: {fileID: 1339566403}
   Score: 10
 --- !u!1001 &2086714694
 PrefabInstance:
@@ -13646,7 +13651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9318c383f026deb4da93b0d301d28ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collected: {fileID: 0}
+  collected: {fileID: 2023040535}
   Score: 10
 --- !u!1001 &2114327826
 PrefabInstance:
@@ -13725,7 +13730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9318c383f026deb4da93b0d301d28ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collected: {fileID: 0}
+  collected: {fileID: 2023040535}
   Score: 10
 --- !u!1001 &2426504285988656346
 PrefabInstance:
@@ -13782,6 +13787,10 @@ PrefabInstance:
     - target: {fileID: 3528533033568629825, guid: 99daa9b8d304ac642b4bf60dbffe3401, type: 3}
       propertyPath: m_Name
       value: Sapinho
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528533033568629825, guid: 99daa9b8d304ac642b4bf60dbffe3401, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13865,7 +13874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9318c383f026deb4da93b0d301d28ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collected: {fileID: 0}
+  collected: {fileID: 1339566403}
   Score: 10
 --- !u!1001 &7048359868001541583
 PrefabInstance:
