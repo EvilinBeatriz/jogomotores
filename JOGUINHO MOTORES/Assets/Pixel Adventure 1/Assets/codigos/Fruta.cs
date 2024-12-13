@@ -13,6 +13,7 @@ public class Fruta : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         circle = GetComponent<CircleCollider2D>();
+        Score = 1;
         
     }
 

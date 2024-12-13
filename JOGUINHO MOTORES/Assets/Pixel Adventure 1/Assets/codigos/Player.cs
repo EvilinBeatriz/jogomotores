@@ -28,26 +28,26 @@ public class Player : MonoBehaviour
 
     void Move()
     {
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"),0f, 0f);
+        Vector3 movement = new Vector2(Input.GetAxis("Horizontal"),0f);
         transform.position += movement * Time.deltaTime * Speed;
 
         if(Input.GetAxis("Horizontal") > 0f)
         {
-            anim.SetBool("walk", true);
-            transform.eulerAngles = new Vector3(0f,0f,0f);
+            anim.SetBool("WALK", true);
+            transform.eulerAngles = new Vector2(0f,0f);
 
         }
 
         if(Input.GetAxis("Horizontal") < 0f)
         {
-            anim.SetBool("walk", true);
-            transform.eulerAngles = new Vector3(0f,180f,0f);
+            anim.SetBool("WALK", true);
+            transform.eulerAngles = new Vector2(0f,180f);
 
         }
 
         if(Input.GetAxis("Horizontal") == 0f)
         {
-            anim.SetBool("walk", false);
+            anim.SetBool("WALK", false);
             
 
         }
@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
             {
                 rig.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                 doubleJump = true;
-                anim.SetBool("jump", true);
+                anim.SetBool("Jump", true);
 
             }
             else
@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
         if(collision.gameObject.layer == 8)
         {
             isJumping = false;
-            anim.SetBool("jump", false);
+            anim.SetBool("Jump", false);
 
         }
         if(collision.gameObject.tag == ("Spike"))
