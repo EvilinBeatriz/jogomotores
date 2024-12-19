@@ -11,10 +11,15 @@ public class GameController : MonoBehaviour
     public static GameController instance;
     public GameObject gameOver;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         instance = this;
         
+    }
+
+    void Update()
+    {
+        UpdateScoreText();
     }
 
    public void UpdateScoreText()
